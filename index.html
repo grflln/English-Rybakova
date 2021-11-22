@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>English Rybakova</title>
-    <link rel="stylesheet" href="images//css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="images/css/jquery-ui.min.css" />
     <link rel="stylesheet" href="images/css/style.css" />
   </head>
 
@@ -40,10 +40,10 @@
               </a>
             </div>
             <div class="menu">
-              <a href="#" class="menu-item">Тарифы</a>
-              <a href="#" class="menu-item">Отзывы</a>
-              <a href="#" class="menu-item">faq</a>
-              <a href="#" class="menu-item">Обратная связь</a>
+              <a href="#tarifes" class="menu-item">Тарифы</a>
+              <a href="#reviews" class="menu-item">Отзывы</a>
+              <a href="#faq" class="menu-item">faq</a>
+              <a href="#questions" class="menu-item">Обратная связь</a>
             </div>
           </div>
         </div>
@@ -220,7 +220,7 @@
           </div>
         </div>
       </div>
-      <div class="tarifes">
+      <div class="tarifes" id="tarifes">
         <img
           src="images/images/pink-circle-blok-tarifes.svg"
           class="pink-circle-blok-tarifes"
@@ -471,7 +471,7 @@
           </div>
         </div>
       </div>
-      <div class="reviews">
+      <div class="reviews" id="reviews">
         <div class="container">
           <div class="reviews-title">Отзывы на первую книгу</div>
           <div class="reviews-carousel">
@@ -490,7 +490,12 @@
           </div>
         </div>
       </div>
-      <div class="faq">
+      <div class="faq" id="faq">
+        <img
+          src="images/images/blur-circle-blok-faq-2.svg"
+          class="blur-circle-blok-faq"
+          alt=""
+        />
         <div class="container">
           <div class="faq-title">Часто задаваемые вопросы</div>
           <div class="faq-accordion">
@@ -545,7 +550,7 @@
           </div>
         </div>
       </div>
-      <div class="questions">
+      <div class="questions" id="questions">
         <div class="container">
           <div class="questions-title">Остались вопросы?</div>
           <div class="questions-description">
@@ -559,7 +564,12 @@
             >
           </div>
           <div class="questions-action">
-            <a href="#" class="questions-action-button">Задать вопрос</a>
+            <a
+              href="https://instagram.com/rybakova_english/"
+              target="_blank"
+              class="questions-action-button"
+              >Задать вопрос</a
+            >
           </div>
         </div>
       </div>
@@ -600,6 +610,42 @@
       </div>
     </footer>
 
+    <div class="modal-container" id="modal-container">
+      <div class="modal">
+        <div class="modal-close">
+          <img
+            class="close-mark"
+            id="close-mark"
+            src="images/images/close-mark.svg"
+            alt=""
+          />
+        </div>
+        <div class="modal-title">Купить <span>“название тарифа”</span></div>
+        <form action="#" method="post" class="modal-form">
+          <div class="form-input">
+            <label for="name">Имя</label>
+            <div>
+              <input type="text" id="name" name="name" />
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="Email">Email</label>
+            <div>
+              <input type="email" id="email" name="email" />
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="name">Подтвердите Email</label>
+            <div>
+              <input type="email" id="repeat-email" name="repeat-email" />
+            </div>
+          </div>
+        </form>
+        <div class="modal-action">
+          <button type="submit" class="modal-action-button">купить</button>
+        </div>
+      </div>
+    </div>
     <script src="images/js/jquery-3.6.0.min.js"></script>
     <script src="images/js/jquery-ui.min.js"></script>
     <script src="images/js/main.js"></script>
