@@ -1,7 +1,8 @@
 $('document').ready(() => {
     $( ".faq-accordion" ).accordion({
     collapsible: true,
-    active: false
+    active: false,
+    heightStyle: "content"
     });
 
     $('.buy-button').click(function (e) { 

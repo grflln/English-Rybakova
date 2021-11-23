@@ -406,10 +406,171 @@
     padding: 19px 21px 18px;
   }
 
+  .useful-content-item {
+    margin-bottom: 30px;
+  }
+
   .useful-content-item-text {
     font-size: 17px;
     line-height: 22px;
     margin-left: 12px;
     width: 215px;
+  }
+
+  .carousel {
+    margin-top: 70px;
+  }
+
+  .carousel-title {
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .block-item {
+    width: 303px;
+    height: 393px;
+  }
+
+  .results {
+    margin-top: 100px;
+  }
+
+  .results-title {
+    font-size: 36px;
+    line-height: 37px;
+    max-width: 552px;
+  }
+
+  .results-content {
+    justify-content: space-evenly;
+  }
+
+  .results-carousel-item,
+  .results-content-item:first-child,
+  .results-content-item:nth-child(5) {
+    padding: 77px 0 35px;
+    margin: 0 0 51px;
+  }
+
+  .results-content-item-text,
+  .results-content-item:first-child .results-content-item-text,
+  .results-content-item:nth-child(5) .results-content-item-text {
+    font-size: 17px;
+    line-height: 24px;
+    max-width: 263px;
+    padding: 0;
+  }
+
+  .tarifes {
+    margin-top: 49px;
+  }
+
+  .tarifes-title {
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .tarifes-description {
+    font-size: 21px;
+    line-height: 28px;
+    max-width: 440px;
+    margin: 25px auto 0 auto;
+  }
+
+  .tarifes-content {
+    flex-direction: column;
+    margin-top: unset;
+  }
+
+  .tarifes-content-item {
+    padding: 93px 34px 35px 40px;
+    width: unset;
+    margin-top: 137px;
+  }
+
+  .tarifes-content-item-image {
+    left: 112px;
+  }
+
+  .tarifes-content-item-features {
+    margin: 0;
+  }
+
+  .tarifes-content-item-feature {
+    margin-top: 25px;
+  }
+
+  .tarifes-content-item-feature-item .tarifes-content-item-title {
+    font-size: 25px;
+  }
+
+  .tarifes-content-item-feature-text {
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 19px;
+    width: 394px;
+  }
+
+  .oldprice {
+    left: 146px;
+  }
+
+  .reviews {
+    margin-top: 99px;
+  }
+
+  .reviews-title {
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .reviews-carousel-item:nth-child(3) {
+    display: none;
+  }
+
+  .faq {
+    margin-top: 104px;
+  }
+
+  .faq-title {
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .faq-accordion.ui-accordion .ui-accordion-header {
+    font-size: 19px;
+    line-height: 29px;
+    padding: 23px 150px 28px 30px;
+  }
+
+  .faq-accordion.ui-accordion .ui-accordion-header-active {
+    padding-bottom: 17px;
+  }
+
+  .faq-accordion .ui-accordion-header-icon {
+    top: 20px;
+    right: 20px;
+    width: 37px;
+  }
+
+  .faq-accordion.ui-accordion .ui-accordion-content {
+    padding: 0 125px 25px 30px;
+  }
+
+  .faq-accordion.ui-accordion .ui-accordion-content p {
+    margin: 0;
+  }
+
+  .questions {
+    margin-top: 100px;
+  }
+
+  .questions-title {
+    font-size: 36px;
+    line-height: 37px;
+  }
+
+  .questions-description {
+    margin: 30px auto 0 auto;
   }
 }
