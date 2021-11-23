@@ -3,14 +3,6 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-}
-
-/*1024-1229*/
-@media screen and (max-width: 1230px) {
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 
   .info-content-title {
     font-size: 60px;
@@ -20,7 +12,7 @@
   .info-content-text {
     max-width: 535px;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 27px;
   }
 
   .info-content-features-item-text {
@@ -30,5 +22,394 @@
 
   .useful-content {
     justify-content: space-evenly;
+  }
+}
+
+/*850-1230*/
+@media screen and (max-width: 1230px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .main {
+    background: none;
+    padding-bottom: 120px;
+  }
+
+  .menu-item {
+    margin-left: 70px;
+  }
+
+  .info {
+    margin-top: 94px;
+  }
+
+  .info-block {
+    align-items: end;
+  }
+
+  .info-content-title {
+    font-size: 50px;
+    line-height: 50px;
+    width: 468px;
+  }
+
+  .info-content-text {
+    max-width: 458px;
+    margin-top: 30px;
+  }
+
+  .info-content-features {
+    margin-top: 30px;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0px -3px 27px rgb(27 48 111 / 6%),
+      0px 16px 27px rgb(27 48 111 / 6%), 0px 2px 6px rgb(27 48 111 / 4%),
+      0px 0px 1px rgb(27 48 111 / 4%);
+    border-radius: 15px;
+    width: 318px;
+    padding: 15px 0;
+  }
+
+  .info-content-features-item {
+    margin: 15px 20px;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .info-content-features-item-image {
+    position: static;
+    width: 36px;
+    height: 36px;
+  }
+
+  .info-content-features-item-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info-content-features-item-text {
+    margin-left: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 223px;
+  }
+
+  .info-image {
+    margin-left: 40px;
+    width: 333px;
+    height: 614px;
+  }
+
+  .info-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info-action {
+    margin-top: 30px;
+  }
+
+  .line-through-top {
+    left: -210px;
+    bottom: 150px;
+  }
+
+  .useful {
+    margin-top: 150px;
+  }
+
+  .useful-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .useful-content {
+    margin-top: 50px;
+  }
+
+  .useful-content-item-text {
+    font-size: 19px;
+    line-height: 24px;
+    width: 259px;
+  }
+
+  .useful-content-item:last-child .useful-content-item-text br {
+    display: none;
+  }
+
+  .useful-content {
+    justify-content: space-between;
+  }
+
+  .carousel {
+    margin-top: 120px;
+  }
+
+  .carousel-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .carousel-block {
+    margin-top: 50px;
+  }
+
+  .block-item {
+    width: 417px;
+    height: 540px;
+  }
+
+  .block-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .line-through-carousel {
+    top: 140px;
+    left: -111px;
+    width: 1326.46px;
+    height: 439.83px;
+  }
+
+  .purple-circle-blok3 {
+    left: -440px;
+  }
+
+  .results-content {
+    justify-content: space-between;
+  }
+
+  .results-content-item {
+    padding: 77px 0 35px;
+    margin: 0 0 51px;
+  }
+
+  .results-content-item:first-child,
+  .results-content-item:nth-child(5) {
+    padding: 77px 0 12px;
+  }
+
+  .results-content-item:first-child .results-content-item-text,
+  .results-content-item:nth-child(5) .results-content-item-text {
+    max-width: 185px;
+    padding: 0 43px;
+  }
+
+  .results-content-item-text {
+    font-size: 19px;
+    line-height: 24px;
+    max-width: 264px;
+  }
+
+  .results-content-item-image {
+    left: 94px;
+  }
+
+  .tarifes {
+    margin-top: 69px;
+  }
+
+  .tarifes-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .tarifes-description {
+    font-size: 25px;
+    line-height: 28px;
+    margin-top: 25px;
+  }
+
+  .tarifes-content {
+    margin-top: 145px;
+    justify-content: space-between;
+  }
+
+  .tarifes-content-item {
+    padding: 81px 16px 35px 16px;
+    margin: 0;
+    width: 263px;
+    box-sizing: border-box;
+  }
+
+  .tarifes-content-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .tarifes-content-item-image {
+    height: 182px;
+    top: -99px;
+  }
+
+  .tarifes-content-item-image img {
+    height: 100%;
+  }
+
+  .tarifes-content-item-feature-text {
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 19px;
+    width: 213px;
+  }
+
+  .tarifes-content-item-feature-mark {
+    width: 13px;
+    height: 9px;
+  }
+
+  .tarifes-content-item-oldprice {
+    font-size: 29px;
+  }
+
+  .tarifes-content-item-oldprice span {
+    font-size: 20px;
+  }
+
+  .tarifes-content-item-newprice {
+    font-size: 41px;
+  }
+
+  .tarifes-content-item-newprice span {
+    font-size: 29px;
+  }
+
+  .tarifes-content-item-action {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tarifes .buy-button {
+    padding: 21px 72px;
+  }
+
+  .reviews {
+    margin-top: 120px;
+  }
+
+  .reviews-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .reviews-carousel {
+    margin-top: 50px;
+  }
+
+  .reviews-carousel-item:last-child {
+    display: none;
+  }
+
+  .reviews-carousel-item {
+    width: 224px;
+    height: 400px;
+    margin: 0 8px;
+  }
+
+  .reviews-carousel-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .faq {
+    margin-top: 120px;
+  }
+
+  .faq-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .faq-accordion {
+    margin-top: 50px;
+  }
+
+  .questions {
+    margin-top: 120px;
+  }
+
+  .questions-title {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .questions-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 849px) {
+  .menu-item {
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 40px;
+  }
+
+  .logo a {
+    width: 122px;
+    height: 42px;
+  }
+
+  .logo a img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .menu {
+    font-size: 0;
+  }
+
+  .info-content-title {
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    line-height: 44px;
+  }
+
+  .info-content-text {
+    margin: 30px auto 0 auto;
+    text-align: center;
+    max-width: 479px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 25px;
+  }
+
+  .info-content-features {
+    margin-top: 93px;
+  }
+
+  .info-image {
+    position: absolute;
+    width: 240px;
+    height: 444px;
+    top: 215px;
+    right: 25px;
+  }
+
+  .useful-title {
+    max-width: 523px;
+    font-size: 36px;
+    line-height: 37px;
+    margin-top: 147px;
+  }
+
+  .useful-content-item-number {
+    font-size: 22px;
+    padding: 19px 21px 18px;
+  }
+
+  .useful-content-item-text {
+    font-size: 17px;
+    line-height: 22px;
+    margin-left: 12px;
+    width: 215px;
   }
 }

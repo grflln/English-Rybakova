@@ -82,6 +82,10 @@ header {
   align-items: end;
 }
 
+.logo a {
+  display: flex;
+}
+
 .menu-item {
   font-family: "Muller", sans-serif;
   font-style: normal;
@@ -275,6 +279,19 @@ header {
 .carousel-block {
   display: flex;
   justify-content: center;
+  margin-top: 70px;
+}
+
+.block-item {
+  filter: drop-shadow(0px 0px 1px rgba(27, 48, 111, 0.04))
+    drop-shadow(0px 2px 6px rgba(27, 48, 111, 0.04))
+    drop-shadow(0px 16px 27px rgba(27, 48, 111, 0.06))
+    drop-shadow(0px -3px 27px rgba(27, 48, 111, 0.06));
+  border-radius: 10px;
+}
+
+.block-item img {
+  border-radius: 10px;
 }
 
 .line-through-carousel {
