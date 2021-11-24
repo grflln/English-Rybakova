@@ -446,7 +446,6 @@ header {
 }
 
 .tarifes-content-item-feature-text {
-  width: 242px;
   margin-left: 13px;
   font-family: Muller;
   font-style: normal;
@@ -470,6 +469,9 @@ header {
   text-align: center;
   color: #b8b8b8;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tarifes-content-item-oldprice span {
@@ -478,8 +480,11 @@ header {
 
 .oldprice {
   position: absolute;
-  left: 70px;
-  top: -10px;
+  /* left: 70px; */
+  /* top: -10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tarifes-content-item-newprice {
@@ -495,6 +500,10 @@ header {
 
 .tarifes-content-item-newprice span {
   font-size: 32px;
+}
+
+.tarifes-content-item-action {
+  text-align: center;
 }
 
 .reviews {
@@ -681,6 +690,7 @@ header {
     0px 2px 6px rgba(32, 22, 161, 0.04), 0px 0px 1px #2016a1;
   border-radius: 17px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .author {
@@ -853,6 +863,7 @@ header {
   cursor: pointer;
 }
 
-.burger {
+.burger,
+.menu-close {
   display: none;
 }

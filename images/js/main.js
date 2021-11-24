@@ -15,4 +15,13 @@ $('document').ready(() => {
         $('.modal-container').hide();     
         }
     });
+
+    $('.burger').click(function (e) { 
+        $('.menu-close').show();
+        $('.menu').addClass('open');
+        $('.menu-item, .menu-close').click(function (e) { 
+        $('.menu-close').hide();
+            $('.menu').removeClass('open');                
+        });
+    });
 });

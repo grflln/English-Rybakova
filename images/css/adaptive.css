@@ -228,7 +228,7 @@
 
   .tarifes-content {
     margin-top: 145px;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .tarifes-content-item {
@@ -256,7 +256,6 @@
     font-size: 18px;
     line-height: 20px;
     margin-left: 19px;
-    width: 213px;
   }
 
   .tarifes-content-item-feature-mark {
@@ -507,11 +506,6 @@
     font-size: 18px;
     line-height: 20px;
     margin-left: 19px;
-    width: 394px;
-  }
-
-  .oldprice {
-    left: 146px;
   }
 
   .reviews {
@@ -770,10 +764,6 @@
     font-size: 26px;
   }
 
-  .oldprice {
-    left: 70px;
-  }
-
   .reviews {
     margin-top: 50px;
   }
@@ -880,5 +870,34 @@
   .footer-cards-item img {
     width: 100%;
     height: 100%;
+  }
+
+  .menu.open {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 101px 0px 59px 37px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .header-content {
+    align-items: center;
+  }
+
+  .menu.open .menu-item {
+    margin: 11px 0;
+  }
+
+  .menu-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    display: none;
   }
 }
