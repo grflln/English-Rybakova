@@ -852,3 +852,7 @@ header {
   border-radius: 17px;
   cursor: pointer;
 }
+
+.burger {
+  display: none;
+}

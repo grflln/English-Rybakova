@@ -398,7 +398,6 @@
     max-width: 523px;
     font-size: 36px;
     line-height: 37px;
-    margin-top: 147px;
   }
 
   .useful-content-item-number {
@@ -572,5 +571,312 @@
 
   .questions-description {
     margin: 30px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  header {
+    padding-top: 13px;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .info {
+    margin-top: 27px;
+  }
+
+  .info-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-content {
+    order: 2;
+  }
+
+  .info-image {
+    width: 106px;
+    height: 195px;
+    position: static;
+    order: 1;
+    margin: 0;
+  }
+
+  .info-content-title {
+    font-size: 28px;
+    line-height: 29px;
+    margin-top: 35px;
+  }
+
+  .info-content-text {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px auto 0 auto;
+    max-width: 285px;
+  }
+
+  .info-content-features {
+    padding: 3px 0 9px 0;
+    margin-top: 25px;
+  }
+
+  .info-content-features-item {
+    margin: 15px 27px;
+  }
+
+  .info-content-features-item-text {
+    width: 180px;
+  }
+
+  .buy-button {
+    width: 100%;
+  }
+  .useful {
+    margin-top: 50px;
+  }
+
+  .useful-title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .useful-content {
+    margin-top: 20px;
+  }
+
+  .useful-content-item-text {
+    font-size: 16px;
+    line-height: 19px;
+    width: 209px;
+  }
+
+  .carousel {
+    margin-top: 20px;
+  }
+
+  .carousel-title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .carousel-block {
+    margin-top: 20px;
+  }
+
+  .block-item {
+    width: 235px;
+    height: 304px;
+  }
+
+  .results {
+    margin-top: 50p;
+  }
+
+  .results-title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .results-content {
+    justify-content: unset;
+  }
+
+  .results-content-item,
+  .results-content-item:first-child,
+  .results-content-item:nth-child(5) {
+    width: 100%;
+  }
+
+  .results-content-item-text,
+  .results-content-item:first-child .results-content-item-text,
+  .results-content-item:nth-child(5) .results-content-item-text {
+    margin: 0 auto;
+  }
+
+  .results-content-item-image {
+    left: 107px;
+  }
+
+  .results-content-item:first-child .results-content-item-image {
+    left: 94px;
+  }
+
+  .tarifes {
+    margin-top: 0;
+  }
+
+  .tarifes-title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .tarifes-description {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .tarifes-content-item {
+    padding: 100px 13px 25px;
+    width: 100%;
+  }
+
+  .tarifes-content-item-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .tarifes-content-item-feature {
+    margin-top: 18px;
+  }
+
+  .tarifes-content-item-feature-text {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 11px;
+  }
+
+  .tarifes-content-item-image {
+    left: 0;
+  }
+
+  .tarifes-content-item-feature-mark {
+    width: 12px;
+    height: 8px;
+  }
+
+  .tarifes-content-item-oldprice {
+    margin-top: 36px;
+    font-size: 26px;
+  }
+
+  .tarifes-content-item-oldprice span {
+    font-size: 18px;
+  }
+
+  .tarifes-content-item-newprice {
+    font-size: 37px;
+  }
+
+  .tarifes-content-item-newprice span {
+    font-size: 26px;
+  }
+
+  .oldprice {
+    left: 70px;
+  }
+
+  .reviews {
+    margin-top: 50px;
+  }
+
+  .reviews-title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .reviews-carousel {
+    margin-top: 25px;
+  }
+
+  .reviews-carousel-item:nth-child(2) {
+    display: none;
+  }
+
+  .faq {
+    margin-top: 50px;
+  }
+
+  .faq-title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .faq-accordion {
+    margin-top: 0;
+  }
+
+  .faq-accordion.ui-accordion .ui-accordion-header {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .faq-accordion.ui-accordion .ui-accordion-header {
+    padding: 20px 65px 24px 18px;
+  }
+
+  .faq-accordion.ui-accordion .ui-accordion-header-active {
+    padding-bottom: 11px;
+  }
+
+  .faq-accordion.ui-accordion .ui-accordion-content {
+    padding: 0 27px 24px 17px;
+  }
+
+  .questions {
+    margin-top: 50px;
+  }
+
+  .questions-title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .questions-description {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px auto 0 auto;
+  }
+
+  .questions-action {
+    margin-top: 30px;
+  }
+
+  .questions-action-button {
+    width: 100%;
+  }
+
+  .author {
+    padding: 30px 0;
+  }
+
+  .author-info {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .author-links {
+    margin-top: 22px;
+  }
+
+  .author-links-item {
+    font-size: 16px;
+    line-height: 29px;
+    margin-top: 0;
+  }
+
+  .footer-second {
+    padding: 23px 0;
+  }
+
+  .footer-cards {
+    justify-content: space-between;
+  }
+
+  .footer-cards-item {
+    width: 53px;
+    height: 28px;
+    margin: 0;
+  }
+
+  .footer-cards-item img {
+    width: 100%;
+    height: 100%;
   }
 }
