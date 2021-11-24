@@ -624,6 +624,7 @@
 
   .info-content-features {
     padding: 3px 0 9px 0;
+    width: 100%;
     margin-top: 25px;
   }
 
@@ -649,6 +650,7 @@
 
   .useful-content {
     margin-top: 20px;
+    width: 100%;
   }
 
   .useful-content-item-text {
