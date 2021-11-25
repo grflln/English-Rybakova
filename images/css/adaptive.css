@@ -143,10 +143,6 @@
     display: none;
   }
 
-  .useful-content {
-    justify-content: space-between;
-  }
-
   .carousel {
     margin-top: 120px;
   }
@@ -182,34 +178,34 @@
   }
 
   .results-content {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .results-content-item {
-    padding: 77px 0 35px;
-    margin: 0 0 51px;
+    padding: 77px 33px 35px;
+    margin: 0 10px 51px;
   }
-
+  /* 
   .results-content-item:first-child,
   .results-content-item:nth-child(5) {
     padding: 77px 0 12px;
-  }
-
+  } */
+  /* 
   .results-content-item:first-child .results-content-item-text,
   .results-content-item:nth-child(5) .results-content-item-text {
     max-width: 185px;
     padding: 0 43px;
-  }
+  } */
 
   .results-content-item-text {
     font-size: 19px;
     line-height: 24px;
     max-width: 264px;
   }
-
+  /* 
   .results-content-item-image {
     left: 94px;
-  }
+  } */
 
   .tarifes {
     margin-top: 69px;
@@ -442,13 +438,13 @@
   .results-content {
     justify-content: space-evenly;
   }
-
+  /* 
   .results-carousel-item,
   .results-content-item:first-child,
   .results-content-item:nth-child(5) {
     padding: 77px 0 35px;
     margin: 0 0 51px;
-  }
+  } */
 
   .results-content-item-text,
   .results-content-item:first-child .results-content-item-text,
@@ -485,10 +481,10 @@
     width: unset;
     margin-top: 137px;
   }
-
+  /* 
   .tarifes-content-item-image {
     left: 112px;
-  }
+  } */
 
   .tarifes-content-item-features {
     margin: 0;
@@ -645,6 +641,12 @@
   .useful-content {
     margin-top: 20px;
     width: 100%;
+    justify-content: center;
+  }
+
+  .useful-content-item {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .useful-content-item-text {
@@ -681,13 +683,14 @@
   }
 
   .results-content {
-    justify-content: unset;
+    justify-content: center;
   }
 
   .results-content-item,
   .results-content-item:first-child,
   .results-content-item:nth-child(5) {
-    width: 100%;
+    padding: 77px 16px 35px;
+    box-sizing: border-box;
   }
 
   .results-content-item-text,
@@ -696,13 +699,13 @@
     margin: 0 auto;
   }
 
-  .results-content-item-image {
+  /* .results-content-item-image {
     left: 107px;
   }
-
+ 
   .results-content-item:first-child .results-content-item-image {
     left: 94px;
-  }
+  }  */
 
   .tarifes {
     margin-top: 0;
@@ -739,7 +742,7 @@
   }
 
   .tarifes-content-item-image {
-    left: 0;
+    left: -30px;
   }
 
   .tarifes-content-item-feature-mark {

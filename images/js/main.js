@@ -5,8 +5,10 @@ $('document').ready(() => {
     heightStyle: "content"
     });
 
-    $('.buy-button').click(function (e) { 
+    $('#tarifes .buy-button').click(function (e) { 
         e.preventDefault();
+        let targetTitle = $(e.target).closest('.tarifes-content-item').find($('.tarifes-content-item-title')).text();
+        $('.modal-title span').text(targetTitle);
         $('.modal-container').css('display', 'flex');     
     });
 
@@ -20,8 +22,10 @@ $('document').ready(() => {
         $('.menu-close').show();
         $('.menu').addClass('open');
         $('.menu-item, .menu-close').click(function (e) { 
-        $('.menu-close').hide();
+         $('.menu-close').hide();
             $('.menu').removeClass('open');                
         });
     });
+
+    
 });

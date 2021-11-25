@@ -7,6 +7,7 @@
     url("../fonts/MullerRegular.eot") format("truetype");
   font-style: normal;
   font-weight: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -18,6 +19,7 @@
     url("../fonts/MullerBold.ttf") format("truetype");
   font-style: normal;
   font-weight: bold;
+  font-display: swap;
 }
 
 body {
@@ -229,6 +231,8 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 55px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .useful-content-item-number {
@@ -344,13 +348,16 @@ header {
 }
 
 .results-content-item-image {
-  width: 106px;
-  height: 106px;
+  width: 100%;
   position: absolute;
   top: -32px;
-  left: 126px;
+  left: 0;
 }
 
+.results-content-item-image img {
+  display: block;
+  margin: 0 auto;
+}
 .results-content-item-text {
   font-family: Muller;
   font-style: normal;
@@ -436,7 +443,13 @@ header {
 .tarifes-content-item-image {
   position: absolute;
   top: -87px;
-  left: 0;
+  left: -10px;
+  width: 100%;
+}
+
+.tarifes-content-item-image img {
+  display: block;
+  margin: 0 auto;
 }
 
 .tarifes-content-item-feature {
@@ -691,6 +704,12 @@ header {
   border-radius: 17px;
   margin: 0 auto;
   text-align: center;
+  border: 1px solid #2016a1;
+}
+
+.questions-action-button:hover {
+  background: #fff;
+  color: #2016a1;
 }
 
 .author {
