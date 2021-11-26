@@ -65,8 +65,8 @@ a {
 .line-through-top {
   position: absolute;
   z-index: -1;
-  left: 115px;
-  bottom: 127px;
+  left: 130px;
+  bottom: 125px;
 }
 
 .container {
@@ -75,7 +75,7 @@ a {
 }
 
 header {
-  padding-top: 46px;
+  padding-top: 36px;
 }
 
 .header-content {
@@ -142,7 +142,7 @@ header {
 }
 
 .info-content-features-item {
-  padding: 40px 14px 22px 23px;
+  padding: 40px 13px 22px 23px;
   background: #ffffff;
   box-shadow: 0px -3px 27px rgba(27, 48, 111, 0.06),
     0px 16px 27px rgba(27, 48, 111, 0.06), 0px 2px 6px rgba(27, 48, 111, 0.04),
@@ -153,7 +153,7 @@ header {
 }
 
 .info-content-features-item-text {
-  max-width: 219px;
+  width: 220px;
   font-family: Muller;
   font-style: normal;
   font-weight: normal;
@@ -231,8 +231,8 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 55px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 9px;
+  margin-left: 9px;
 }
 
 .useful-content-item-number {
