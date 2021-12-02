@@ -2,7 +2,8 @@ $('document').ready(() => {
     $( ".faq-accordion" ).accordion({
     collapsible: true,
     active: false,
-    heightStyle: "content"
+    heightStyle: "content",
+    animate: 150
     });
 
     $('#tarifes .buy-button').click(function (e) { 

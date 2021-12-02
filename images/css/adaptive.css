@@ -181,28 +181,12 @@
     padding: 77px 33px 35px;
     margin: 0 10px 51px;
   }
-  /* 
-  .results-content-item:first-child,
-  .results-content-item:nth-child(5) {
-    padding: 77px 0 12px;
-  } */
-  /* 
-  .results-content-item:first-child .results-content-item-text,
-  .results-content-item:nth-child(5) .results-content-item-text {
-    max-width: 185px;
-    padding: 0 43px;
-  } */
 
   .results-content-item-text {
     font-size: 19px;
     line-height: 24px;
     max-width: 264px;
   }
-  /* 
-  .results-content-item-image {
-    left: 94px;
-  } */
-
   .tarifes {
     margin-top: 69px;
   }
@@ -436,13 +420,6 @@
   .results-content {
     justify-content: space-evenly;
   }
-  /* 
-  .results-carousel-item,
-  .results-content-item:first-child,
-  .results-content-item:nth-child(5) {
-    padding: 77px 0 35px;
-    margin: 0 0 51px;
-  } */
 
   .results-content-item-text,
   .results-content-item:first-child .results-content-item-text,
@@ -479,11 +456,6 @@
     width: unset;
     margin-top: 137px;
   }
-  /* 
-  .tarifes-content-item-image {
-    left: 112px;
-  } */
-
   .tarifes-content-item-features {
     margin: 0;
   }
@@ -698,14 +670,6 @@
     margin: 0 auto;
   }
 
-  /* .results-content-item-image {
-    left: 107px;
-  }
- 
-  .results-content-item:first-child .results-content-item-image {
-    left: 94px;
-  }  */
-
   .tarifes {
     margin-top: 0;
   }
@@ -901,5 +865,55 @@
     top: 25px;
     right: 25px;
     display: none;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .modal {
+    display: flex;
+    padding: 55px 20px 35px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px -3px 27px rgb(27 48 111 / 6%),
+      0px 16px 27px rgb(27 48 111 / 6%), 0px 2px 6px rgb(27 48 111 / 4%),
+      0px 0px 1px rgb(27 48 111 / 4%);
+    border-radius: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 21;
+  }
+
+  .modal-close {
+    top: 20px;
+    right: 20px;
+  }
+
+  .modal-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .modal-form {
+    width: unset;
+    margin-top: 10px;
+  }
+
+  .form-input {
+    margin: 15px 0;
+  }
+
+  .form-input label {
+    font-size: 15px;
+  }
+
+  .form-input input {
+    padding: 10px 0 10px 5px;
+    font-size: 18px;
+  }
+
+  .modal-action {
+    margin-top: 10px;
+    width: 226px;
   }
 }
