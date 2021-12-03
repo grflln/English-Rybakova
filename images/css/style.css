@@ -32,6 +32,7 @@ body {
 
 a {
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .main {
@@ -601,6 +602,7 @@ header {
   max-width: 896px;
   box-sizing: border-box;
   margin: 20px auto 0 auto;
+  -webkit-tap-highlight-color: transparent;
 }
 .faq-accordion.ui-accordion .ui-accordion-content {
   max-width: 896px;
