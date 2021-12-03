@@ -639,6 +639,65 @@
     margin-top: 20px;
   }
 
+  .line-through-carousel {
+    top: -15px;
+    left: -260px;
+  }
+
+  .blue-circle-b1 {
+    top: 124px;
+    width: 245px;
+    height: 245px;
+    right: -93px;
+    transform: rotate(50deg);
+  }
+
+  .pink-circle-b1 {
+    top: -88px;
+    left: -42px;
+    width: 317px;
+    height: 289px;
+    filter: blur(50px);
+  }
+
+  .purple-circle-b1 {
+    bottom: 158px;
+    left: -100px;
+    width: 264px;
+    height: 264px;
+    opacity: 0.8;
+    filter: blur(100px);
+  }
+
+  .purple-circle-blok3 {
+    width: 264px;
+    height: 264px;
+    right: -134px;
+    bottom: -1000px;
+    top: unset;
+    left: unset;
+  }
+
+  .pink-circle-blok-tarifes {
+    width: 317px;
+    height: 289px;
+    left: -169px;
+    top: 1178px;
+  }
+
+  .blur-circle-blok-faq {
+    width: 401px;
+    height: 376px;
+    top: -249px;
+    left: -263px;
+    filter: blur(60px);
+  }
+
+  .line-through-accordion {
+    bottom: 108px;
+    left: -705px;
+  }
+
   .block-item {
     width: 235px;
     height: 304px;
