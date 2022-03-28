@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Muller";
-  src: url("../fonts//MullerRegular.eot");
+  src: url("../fonts/MullerRegular.eot");
   src: url("../fonts/MullerRegular.eot") format("embedded-opentype"),
     url("../fonts/MullerRegular.woff") format("woff"),
     url("../fonts/MullerRegular.woff2") format("woff2"),
@@ -78,7 +78,7 @@ a {
 }
 
 header {
-  padding-top: 36px;
+  padding-top: 46px;
 }
 
 .header-content {
