@@ -1,34 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e80594a5-df07-42e3-b7da-f530b2457ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/css/main_adaptive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/css/main_page-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/NiceHashQuickMinerInstaller.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/Vector18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_108.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_attention-dashed.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_attention-pink-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_audio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_beginer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_courses-dashed.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_english-book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_english-dashed.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_header-blue-circle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_info-book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_info-dashed.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_info-elipse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_info-fire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_info-openbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_newbee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_speak.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_time.png" afterDir="false" />
+    <list default="true" id="e80594a5-df07-42e3-b7da-f530b2457ebc" name="Changes" comment="end with new page">
+      <change afterPath="$PROJECT_DIR$/eng_book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/css/main-page-style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/images/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/images/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/images/main_julia.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/images/main_julia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +78,16 @@
       <workItem from="1649668440583" duration="6757000" />
       <workItem from="1649687812625" duration="14032000" />
       <workItem from="1649752568183" duration="5342000" />
-      <workItem from="1649781037839" duration="6028000" />
+      <workItem from="1649781037839" duration="7747000" />
     </task>
+    <task id="LOCAL-00001" summary="end with new page">
+      <created>1649790907225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649790907225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="end with new page" />
+    <option name="LAST_COMMIT_MESSAGE" value="end with new page" />
   </component>
 </project>

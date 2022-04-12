@@ -134,7 +134,7 @@ header {
 }
 
 .info-content-title {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 63px;
@@ -160,9 +160,9 @@ header {
 .info-content-features-item {
   padding: 40px 13px 22px 23px;
   background: #ffffff;
-  box-shadow: 0px -3px 27px rgba(27, 48, 111, 0.06),
-    0px 16px 27px rgba(27, 48, 111, 0.06), 0px 2px 6px rgba(27, 48, 111, 0.04),
-    0px 0px 1px rgba(27, 48, 111, 0.04);
+  box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.06),
+    0 16px 27px rgba(27, 48, 111, 0.06), 0 2px 6px rgba(27, 48, 111, 0.04),
+    0 0 1px rgba(27, 48, 111, 0.04);
   border-radius: 15px;
   position: relative;
   margin-right: 30px;
@@ -170,7 +170,7 @@ header {
 
 .info-content-features-item-text {
   width: 220px;
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -193,7 +193,7 @@ header {
 }
 
 .buy-button {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
@@ -204,8 +204,8 @@ header {
   color: #fffdfd;
   padding: 21px 85px;
   background: #ff1e6f;
-  box-shadow: 0px 16px 24px rgba(255, 30, 111, 0.06),
-    0px 2px 6px rgba(255, 30, 111, 0.04), 0px 0px 1px #ff1e6f;
+  box-shadow: 0 16px 24px rgba(255, 30, 111, 0.06),
+    0 2px 6px rgba(255, 30, 111, 0.04), 0 0 1px #ff1e6f;
   display: inline-block;
   border-radius: 17px;
   border: 1px solid #ff1e6f;
@@ -252,7 +252,7 @@ header {
 }
 
 .useful-content-item-number {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 33px;
@@ -262,14 +262,14 @@ header {
   color: #ff1e6f;
   padding: 37px 32px 32px;
   background: #ffffff;
-  box-shadow: 0px -3px 27px rgba(73, 165, 171, 0.06),
-    0px 16px 30px rgba(27, 48, 111, 0.04), 0px 2px 6px rgba(27, 48, 111, 0.04),
-    0px 0px 1px rgba(27, 48, 111, 0.04);
+  box-shadow: 0 -3px 27px rgba(73, 165, 171, 0.06),
+    0 16px 30px rgba(27, 48, 111, 0.04), 0 2px 6px rgba(27, 48, 111, 0.04),
+    0 0 1px rgba(27, 48, 111, 0.04);
   border-radius: 50px;
 }
 
 .useful-content-item-text {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -286,7 +286,7 @@ header {
 }
 
 .carousel-title {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 53px;
@@ -303,7 +303,7 @@ header {
 }
 
 .block-item {
-  filter: drop-shadow(0px 0px 1px rgba(27, 48, 111, 0.04))
+  filter: drop-shadow(0px 0 1px rgba(27, 48, 111, 0.04))
     drop-shadow(0px 2px 6px rgba(27, 48, 111, 0.04))
     drop-shadow(0px 16px 27px rgba(27, 48, 111, 0.06))
     drop-shadow(0px -3px 27px rgba(27, 48, 111, 0.06));
@@ -334,7 +334,7 @@ header {
 .results-title {
   margin: 0 auto;
   max-width: 625px;
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 53px;
@@ -352,13 +352,12 @@ header {
 }
 
 .results-content-item {
-  background: #fff;
   padding: 77px 20px 35px;
   position: relative;
   background: #ffffff;
-  box-shadow: 0px -3px 27px rgba(27, 48, 111, 0.06),
-    0px 16px 27px rgba(27, 48, 111, 0.06), 0px 2px 6px rgba(27, 48, 111, 0.04),
-    0px 0px 1px rgba(27, 48, 111, 0.04);
+  box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.06),
+    0 16px 27px rgba(27, 48, 111, 0.06), 0 2px 6px rgba(27, 48, 111, 0.04),
+    0 0 1px rgba(27, 48, 111, 0.04);
   border-radius: 15px;
   margin: 0 20px 91px;
 }
@@ -375,7 +374,7 @@ header {
   margin: 0 auto;
 }
 .results-content-item-text {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -387,7 +386,7 @@ header {
 }
 
 .results-content-item-text span {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -405,7 +404,7 @@ header {
 }
 
 .tarifes-title {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 53px;
@@ -416,7 +415,7 @@ header {
 }
 
 .tarifes-description {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 29px;
@@ -436,9 +435,9 @@ header {
 
 .tarifes-content-item {
   background: #ffffff;
-  box-shadow: 0px -3px 27px rgba(27, 48, 111, 0.06),
-    0px 16px 27px rgba(27, 48, 111, 0.06), 0px 2px 6px rgba(27, 48, 111, 0.04),
-    0px 0px 1px rgba(27, 48, 111, 0.04);
+  box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.06),
+    0 16px 27px rgba(27, 48, 111, 0.06), 0 2px 6px rgba(27, 48, 111, 0.04),
+    0 0 1px rgba(27, 48, 111, 0.04);
   border-radius: 15px;
   padding: 126px 22px 45px 30px;
   margin: 0 20px;
@@ -446,7 +445,7 @@ header {
 }
 
 .tarifes-content-item-title {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -476,7 +475,7 @@ header {
 
 .tarifes-content-item-feature-text {
   margin-left: 13px;
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -491,7 +490,7 @@ header {
 
 .tarifes-content-item-oldprice {
   margin-top: 37px;
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -517,7 +516,7 @@ header {
 }
 
 .tarifes-content-item-newprice {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
@@ -540,7 +539,7 @@ header {
 }
 
 .reviews-title {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 53px;
@@ -560,7 +559,7 @@ header {
   filter: drop-shadow(0px -3px 27px rgba(27, 48, 111, 0.06))
     drop-shadow(0px 16px 27px rgba(27, 48, 111, 0.04))
     drop-shadow(0px 2px 6px rgba(27, 48, 111, 0.04))
-    drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.04));
+    drop-shadow(0px 0 1px rgba(0, 0, 0, 0.04));
   border-radius: 10px;
   margin: 0 10px;
 }
@@ -591,7 +590,7 @@ header {
 }
 
 .faq-title {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 53px;
@@ -605,7 +604,7 @@ header {
 }
 
 .faq-accordion.ui-accordion .ui-accordion-header {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -628,26 +627,24 @@ header {
 
 .faq-accordion.ui-accordion .ui-accordion-content-active {
   background: #ffffff;
-  box-shadow: 0px 16px 27px rgba(27, 48, 111, 0.06),
-    0px 2px 6px rgba(27, 48, 111, 0.04), 0px 0px 1px rgba(27, 48, 111, 0.04);
-  border-radius: 10px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  box-shadow: 0 16px 27px rgba(27, 48, 111, 0.06),
+    0 2px 6px rgba(27, 48, 111, 0.04), 0 0 1px rgba(27, 48, 111, 0.04);
+  border-radius: 0 0 10px 10px;
 }
 
 .faq-accordion.ui-accordion .ui-accordion-header-active {
   color: #2016a1;
   border-bottom: none;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  box-shadow: 0px -16px 17px rgba(27, 48, 111, 0.06),
-    0px -2px 2px rgba(27, 48, 111, 0.04);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 -16px 17px rgba(27, 48, 111, 0.06),
+    0 -2px 2px rgba(27, 48, 111, 0.04);
 }
 
 .faq-accordion .ui-state-default {
   background: #ffffff;
-  box-shadow: 0px 16px 27px rgba(27, 48, 111, 0.06),
-    0px 2px 6px rgba(27, 48, 111, 0.04), 0px 0px 1px rgba(27, 48, 111, 0.04);
+  box-shadow: 0 16px 27px rgba(27, 48, 111, 0.06),
+    0 2px 6px rgba(27, 48, 111, 0.04), 0 0 1px rgba(27, 48, 111, 0.04);
   border-radius: 10px;
   border: none;
 }
@@ -673,7 +670,7 @@ header {
 }
 
 .questions-title {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 53px;
@@ -684,7 +681,7 @@ header {
 
 .questions-description {
   margin: 25px auto 0 auto;
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -707,7 +704,7 @@ header {
 }
 
 .questions-action-button {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 19px;
@@ -717,8 +714,8 @@ header {
   color: #fffdfd;
   padding: 24px 54px;
   background: #2016a1;
-  box-shadow: 0px 16px 24px rgba(32, 22, 161, 0.06),
-    0px 2px 6px rgba(32, 22, 161, 0.04), 0px 0px 1px #2016a1;
+  box-shadow: 0 16px 24px rgba(32, 22, 161, 0.06),
+    0 2px 6px rgba(32, 22, 161, 0.04), 0 0 1px #2016a1;
   border-radius: 17px;
   margin: 0 auto;
   text-align: center;
@@ -736,7 +733,7 @@ header {
 }
 
 .author-info {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -746,7 +743,7 @@ header {
 }
 
 .author-info a {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -764,7 +761,7 @@ header {
 }
 
 .author-links-item {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -811,9 +808,9 @@ header {
   padding: 70px 38px 60px;
   background: #fff;
   position: relative;
-  box-shadow: 0px -3px 27px rgba(27, 48, 111, 0.06),
-    0px 16px 27px rgba(27, 48, 111, 0.06), 0px 2px 6px rgba(27, 48, 111, 0.04),
-    0px 0px 1px rgba(27, 48, 111, 0.04);
+  box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.06),
+    0 16px 27px rgba(27, 48, 111, 0.06), 0 2px 6px rgba(27, 48, 111, 0.04),
+    0 0 1px rgba(27, 48, 111, 0.04);
   border-radius: 15px;
   flex-direction: column;
   justify-content: center;
@@ -834,7 +831,7 @@ header {
 }
 
 .modal-title {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 31px;
@@ -864,7 +861,7 @@ header {
 }
 
 .form-input label {
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -882,7 +879,7 @@ header {
 .modal-action-button {
   width: 100%;
   padding: 24px;
-  font-family: Muller;
+  font-family: "Muller", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -894,8 +891,8 @@ header {
   border: none;
   outline: none;
   background: #ff1e6f;
-  box-shadow: 0px 16px 24px rgba(255, 30, 111, 0.06),
-    0px 2px 6px rgba(255, 30, 111, 0.04), 0px 0px 1px #ff1e6f;
+  box-shadow: 0 16px 24px rgba(255, 30, 111, 0.06),
+    0 2px 6px rgba(255, 30, 111, 0.04), 0 0 1px #ff1e6f;
   border-radius: 17px;
   cursor: pointer;
 }
