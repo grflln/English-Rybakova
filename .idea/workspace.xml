@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80594a5-df07-42e3-b7da-f530b2457ebc" name="Changes" comment="end with new page">
-      <change afterPath="$PROJECT_DIR$/eng_book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/images/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fonts/MullerMedium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fonts/MullerMedium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fonts/MullerMedium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fonts/MullerMedium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_attention-iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_attention-mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_courses-flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_faq-dashed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_footer-logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +83,7 @@
       <workItem from="1649668440583" duration="6757000" />
       <workItem from="1649687812625" duration="14032000" />
       <workItem from="1649752568183" duration="5342000" />
-      <workItem from="1649781037839" duration="7747000" />
+      <workItem from="1649781037839" duration="8152000" />
     </task>
     <task id="LOCAL-00001" summary="end with new page">
       <created>1649790907225</created>
@@ -87,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649790907225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="end with new page">
+      <created>1649792453064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649792453064</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
