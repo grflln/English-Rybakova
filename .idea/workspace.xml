@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e80594a5-df07-42e3-b7da-f530b2457ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/css/main-page-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_award.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_engbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/images/main_julia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/css/main_adaptive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/css/main_page-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/NiceHashQuickMinerInstaller.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Vector18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_attention-dashed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_attention-pink-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_audio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_beginer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_courses-dashed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_english-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_english-dashed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_header-blue-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_info-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_info-dashed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_info-elipse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_info-fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_info-openbook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_newbee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_speak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/main_time.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/css/main-page-style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/images/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/images/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/images/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/images/images/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/images/main_julia.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/images/main_julia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/main-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +48,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,6 +77,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="proofread" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -60,7 +89,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648484432693</updated>
-      <workItem from="1648484435665" duration="6696000" />
+      <workItem from="1648484435665" duration="7039000" />
+      <workItem from="1648574855587" duration="5370000" />
+      <workItem from="1648644840284" duration="596000" />
+      <workItem from="1649092687132" duration="5529000" />
+      <workItem from="1649148619950" duration="11038000" />
+      <workItem from="1649266575748" duration="3314000" />
+      <workItem from="1649409812063" duration="8755000" />
+      <workItem from="1649585571373" duration="18684000" />
+      <workItem from="1649668440583" duration="6757000" />
+      <workItem from="1649687812625" duration="14032000" />
+      <workItem from="1649752568183" duration="5342000" />
+      <workItem from="1649781037839" duration="6028000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,539 @@
+@media screen and (max-width: 1229px) {
+    .main_header-blue-circle {
+        filter: blur(100px);
+    }
+
+    .main_info-pink-circle {
+        filter: blur(200px);
+        right: -300px;
+        bottom: -150px;
+    }
+
+    .main_english-blue-circle {
+        filter: blur(300px);
+    }
+
+    .main_courses-blue-circle {
+        filter: blur(300px);
+    }
+
+    .menu-item {
+        margin-left: 50px;
+    }
+
+    .main_info-content {
+        align-items: flex-start;
+    }
+
+    .main_info-content-left {
+        width: 456px;
+    }
+
+    .main_info-ellipse {
+        width: 100%;
+        right: -15px;
+    }
+
+    .main_info-dashed {
+        width: 1336px;
+        bottom: 20px;
+        right: -265px;
+    }
+
+    .main_info-image {
+        width: 377px;
+    }
+
+    .main_info-openbook {
+        bottom: 200px;
+        left: 0;
+        right: unset;
+    }
+
+    .main_info-fire {
+        right: 70px;
+    }
+
+    .main_info-book {
+        bottom: 130px;
+    }
+
+    .block-title {
+        font-size: 50px;
+    }
+
+    .main_about-content-item-title {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .main_schedule-title {
+        width: 525px;
+    }
+
+    .main_english-content-title {
+        max-width: 276px;
+    }
+
+    .main_english-content-description {
+        max-width: 340px;
+    }
+
+    .main_courses-description {
+        max-width: 526px;
+        margin: 15px auto 0 auto;
+    }
+
+    .main_courses-description-text {
+        margin-top: 10px;
+    }
+
+
+    .main_courses-content-item {
+        background: radial-gradient(circle at 320px 0px, transparent 50px, white 50px);
+    }
+
+    .main_courses-content-item-image {
+        right: 40px;
+    }
+
+    .main_courses-content-item-features {
+        max-width: 350px;
+    }
+
+    .main_attention {
+        padding-top: 217px;
+    }
+
+    .main_attention-content {
+        z-index: 1;
+    }
+
+    .main_attention-content-iphone {
+        width: 223px;
+        height: 496px;
+        top: -90px;
+    }
+
+    .main_attention-content-iphone img {
+        width: 100%;
+    }
+
+    .main_attention-content-title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .main_attention-dashed {
+        transform: rotate(350deg);
+        bottom: 94px;
+        right: -64px;
+    }
+
+    .reviews.main_block {
+        padding-top: 150px;
+        margin-top: 0;
+    }
+
+    .main_footer-content-col-item {
+        font-size: 14px;
+    }
+
+    .main_footer-content-col .menu-item {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1111px) {
+    .main_footer-content-links {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    .menu-item {
+        font-size: 14px;
+        margin-left: 32px;
+    }
+
+    .main_info-content {
+        flex-direction: column;
+    }
+
+    .main_info-content-left-greetings {
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .main_info-content-left {
+        order: 2;
+        margin-top: 34px;
+        width: 100%;
+    }
+
+    .main_info-image {
+        order: 1;
+        margin: 0 auto;
+    }
+
+    .main_info-dashed {
+        top: -60px;
+        right: calc(50% - 460px);
+        bottom: unset;
+    }
+
+    .main_info-pink-circle {
+        bottom: 310px;
+        filter: blur(150px);
+    }
+
+    .main_info-content-left-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .main_info-content-left-description {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .main_info-content-left-about-item-text {
+        width: 193px;
+    }
+
+    .main_about {
+        margin-top: 50px;
+    }
+
+    .main_about-content-item {
+        height: 141px;
+    }
+
+    .block-title {
+        font-size: 36px;
+        line-height: 37px;
+    }
+
+    .main_schedule-title {
+        width: 360px;
+    }
+
+    .main_schedule-blue-circle {
+        right: -300px;
+        bottom: -800px;
+        left: unset;
+        top: unset;
+    }
+
+    .main_schedule-title img {
+        width: 62px;
+    }
+
+    .main_schedule-content-item-title br {
+        display: block;
+    }
+
+    .main_schedule-content {
+        width: 445px;
+    }
+
+    .main_english {
+        margin-top: 213px;
+    }
+
+    .main_english-content {
+        padding: 73px 51px 30px 30px;
+        box-sizing: border-box;
+        width: 500px;
+        margin: 0 auto;
+
+    }
+
+    .main_english-content-book {
+        width: 278px;
+        height: 325px;
+        top: -189px;
+        right: 0;
+    }
+
+    .main_english-content-book img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main_english-content-title {
+        font-size: 24px;
+        line-height: 29px;
+        max-width: unset;
+    }
+
+    .main_english-content-title br {
+        display: block;
+    }
+
+    .main_english-content-description {
+        font-size: 17px;
+        line-height: 23px;
+        max-width: 420px;
+    }
+
+    .main_english-blue-circle {
+        bottom: -1240px;
+        left: -250px;
+        right: unset;
+    }
+
+    .main_english-dashed {
+        bottom: -110px;
+    }
+
+    .main_courses {
+        padding-top: 100px;
+    }
+
+    .main_courses-description {
+        font-size: 16px;
+        line-height: 25px;
+        max-width: unset;
+    }
+
+    .main_courses-content {
+        justify-content: center;
+    }
+
+    .main_courses-content-item {
+        padding: 112px 40px 138px 15px;
+        background: radial-gradient(circle at 393px 0px, transparent 50px, white 50px);
+    }
+
+    .main_courses-content-item-features {
+        max-width: 418px;
+    }
+
+    .main_courses-blue-circle {
+        top: 1560px;
+        right: -530px;
+        left: unset;
+    }
+
+    .main_attention-pink-circle {
+        left: -190px;
+        top: -816px;
+        right: unset;
+    }
+
+    .main_attention-content {
+        padding: 135px 100px 36px 30px;
+        width: 455px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .main_attention-content-title {
+        font-size: 34px;
+        line-height: 38px;
+        width: 200px;
+    }
+
+    .main_attention-content-title br {
+        display: block;
+    }
+
+    .main_attention-content-title br:last-of-type {
+        display: none;
+    }
+
+    .main_attention-content-description {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .main_attention-content-iphone {
+        width: 137px;
+        height: 305px;
+    }
+
+    .main_attention-dashed {
+        transform: rotate(0deg);
+        bottom: 297px;
+        right: 0;
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .main_info-image {
+        width: 297px;
+    }
+
+    .main_info-dashed {
+        width: 1075px;
+        left: unset;
+        right: calc(50% - 375px);
+        top: -87px;
+    }
+
+    .main_about-content {
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .main_about-content-item {
+        width: 70%;
+        margin: 10px auto 10px auto;
+        height: unset;
+    }
+
+    .main_about-content-item-title {
+        text-align: center;
+    }
+
+    .main_about-content-item-description {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 540px ) {
+    .main_info-content-left-greetings {
+        font-size: 30px;
+    }
+
+    .main_info-content-left-title {
+        font-size: 22px;
+        margin-top: 36px;
+    }
+
+    .main_info-content-left-about {
+        flex-direction: column;
+    }
+
+    .main_info-content-left-about-item {
+        margin: 15px 0;
+    }
+
+    .main_info-content-left-about-item-text {
+        width: 100%;
+    }
+
+    .main_info-content-left-about-item-text br {
+        display: none;
+    }
+
+    .main_english-content {
+        width: 100%;
+    }
+
+    .main_schedule-content {
+        width: 394px;
+    }
+
+    .main_schedule-content-item {
+        padding: 25px 30px 29px;
+    }
+
+    .main_courses-content-item {
+        background: radial-gradient(circle at 310px 0px, transparent 50px, white 50px);
+    }
+
+    .main_courses-content-item-for {
+        font-size: 14px;
+        line-height: 14px;
+        right: -9px;
+    }
+
+    .main_courses-content-item-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .main_courses-content-item-features {
+        max-width: 335px;
+    }
+
+    .main_attention-content {
+        padding: 135px 30px 36px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main_about-content-item {
+        width: 100%;
+    }
+
+    .main_footer-content-links {
+        flex-direction: column;
+    }
+
+    .main_english {
+        margin-top: 150px;
+    }
+
+    .main_english-content-book {
+        width: 211px;
+        height: 247px;
+        top: -120px;
+    }
+
+    .block-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .main_schedule {
+        margin-top: 90px;
+    }
+
+    .main_schedule-title {
+        width: 270px;
+    }
+
+    .main_courses-content-item {
+        background: radial-gradient(circle at 250px 0px, transparent 50px, white 50px);
+    }
+
+    .main_courses-content-item-features {
+        width: 275px;
+    }
+
+    .main_attention-content {
+        padding: 100px 10px 36px;
+    }
+
+    .main_attention-content-mark {
+        width: 125px;
+    }
+
+    .main_attention-content-mark img {
+        width: 100%;
+    }
+
+    .main_attention-dashed {
+        right: -70px;
+    }
+
+    .main_attention-content-iphone {
+        width: 114px;
+        height: 254px;
+        right: 10px;
+    }
+
+    .main_attention-content-action-btn {
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+    }
+
+    .main_attention-content-description {
+        max-width: 288px;
+    }
+
+    .main_schedule-content {
+        width: 100%;
+    }
+
+    .main_schedule-content-item {
+        padding: 25px 15px 29px;
+    }
+}

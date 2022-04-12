@@ -1,0 +1,716 @@
+.main_screen {
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+}
+
+.main_header-blue-circle {
+    position: absolute;
+    width: 486px;
+    height: 443px;
+    left: -280px;
+    top: -52px;
+    background: #A58FFB;
+    opacity: 0.56;
+    filter: blur(200px);
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.block-title {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    color: #2016a1;
+    margin: 0 auto;
+}
+
+.menu-item {
+    margin-left: 95px;
+    line-height: 23px;
+}
+
+.main_info {
+    padding-top: 45px;
+    position: relative;
+}
+
+.main_info-dashed {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(-32deg);
+    bottom: -165px;
+    right: -330px;
+}
+
+.main_info-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.main_info-content-left {
+    width: 680px;
+}
+
+.main_info-content-left-greetings {
+    font-family: "Muller", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #000000;
+}
+
+.main_info-content-left-title {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2016A1;
+    margin-top: 54px;
+}
+
+.main_info-content-left-title span {
+    color: #FF1E6F;
+}
+
+.main_info-content-left-description {
+    padding-top: 35px;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #10141F;
+}
+
+.main_info-content-left-description-text {
+    margin: 15px 0;
+}
+
+.main_info-content-left-description span {
+    font-weight: 700;
+}
+
+.main_info-content-left-about {
+    margin-top: 70px;
+    display: flex;
+}
+
+.main_info-content-left-about-item {
+    display: flex;
+    align-items: center;
+    margin-right: 31px;
+}
+
+.main_info-content-left-about-item-text {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    width: 193px;
+    margin-left: 15px;
+}
+
+.main_info-content-left-about-item-text span {
+    color: #2016A1;
+}
+
+.main_info-image {
+    position: relative;
+}
+
+.main_info-julia img {
+    width: 100%;
+}
+
+.main_info-ellipse {
+    position: absolute;
+    z-index: -2;
+    bottom: 0;
+    right: 0;
+}
+
+.main_info-ellipse img {
+    width: 100%;
+}
+
+.main_info-fire {
+    position: absolute;
+    bottom: 0;
+    right: 110px;
+}
+
+.main_info-book {
+    position: absolute;
+    bottom: 240px;
+    right: -25px;
+}
+
+.main_info-pink-circle {
+    position: absolute;
+    width: 613px;
+    height: 606px;
+    background: #FF1E6F;
+    opacity: 0.3;
+    filter: blur(300px);
+    right: -495px;
+    bottom: -217px;
+    border-radius: 50%;
+    z-index: -3;
+}
+
+
+.main_info-openbook {
+    position: absolute;
+    bottom: 290px;
+    right: 410px;
+}
+
+.main_about {
+    margin-top: 206px;
+}
+
+.main_about .container {
+    max-width: 1060px;
+}
+
+.main_about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.main_about-content-item {
+    width: 31%;
+    background: #FFFFFF;
+    box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.06), 0 16px 27px rgba(27, 48, 111, 0.06), 0 2px 6px rgba(27, 48, 111, 0.04), 0 0 1px rgba(27, 48, 111, 0.04);
+    border-radius: 25px;
+    padding: 25px 0 29px 0;
+    box-sizing: border-box;
+}
+
+.main_about-content-item-title {
+    text-align: center;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    color: #FF1E6F;
+}
+
+.main_about-content-item-title span {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.main_about-content-item-description {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #10141F;
+    margin-top: 15px;
+}
+
+.main_schedule {
+    margin-top: 150px;
+    position: relative;
+}
+
+.main_schedule-blue-circle {
+    position: absolute;
+    width: 1040px;
+    height: 1040px;
+    left: -460px;
+    top: -210px;
+    background: #C3DEFB;
+    opacity: 0.6;
+    filter: blur(200px);
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.main_schedule-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 570px;
+}
+
+.main_schedule-content {
+    margin: 80px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.06), 0 16px 27px rgba(27, 48, 111, 0.06), 0 2px 6px rgba(27, 48, 111, 0.04), 0 0 1px rgba(27, 48, 111, 0.04);
+    border-radius: 25px;
+    width: 605px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main_schedule-content-item {
+    padding: 25px 52px 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_schedule-content-item:nth-child(2n) {
+    background: #F8F8F8;
+}
+
+
+.main_schedule-content-item-title {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #2016A1;
+}
+
+.main_schedule-content-item-title br {
+    display: none;
+}
+
+.main_schedule-content-item-when {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.main_english {
+    margin-top: 253px;
+    position: relative;
+}
+
+.main_english .container {
+    max-width: 940px;
+    padding: 0 20px;
+}
+
+.main_english-content {
+    background: #FFFFFF;
+    box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.03), 0 16px 27px rgba(27, 48, 111, 0.03), 0 2px 6px rgba(27, 48, 111, 0.02), 0 0 1px rgba(27, 48, 111, 0.02);
+    border-radius: 30px;
+    padding: 63px 45px 51px;
+    position: relative;
+}
+
+.main_english-content-title {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.01em;
+    color: #2016A1;
+    max-width: 482px;
+}
+
+.main_english-content-title br {
+    display: none;
+}
+
+.main_english-content-description {
+    margin-top: 22px;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #10141F;
+    max-width: 487px;
+}
+
+.main_english-content-action {
+    margin-top: 40px;
+}
+
+.main_english-content-action-btn {
+    border: 2px solid #2016A1;
+    box-sizing: border-box;
+    border-radius: 17px;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2016A1;
+    padding: 21px 67px 20px;
+    display: inline-block;
+}
+
+.main_english-content-book {
+    position: absolute;
+    right: -34px;
+    bottom: 26px;
+}
+
+.main_english-dashed {
+    position: absolute;
+    bottom: 0;
+    left: -255px;
+    transform: rotate(14deg);
+    z-index: -1;
+}
+
+.main_english-blue-circle {
+    position: absolute;
+    width: 971px;
+    height: 886px;
+    background: #A58FFB;
+    opacity: 0.3;
+    filter: blur(465px);
+    border-radius: 50%;
+    bottom: -762px;
+    right: -432px;
+    z-index: -1;
+}
+
+.main_courses {
+    padding-top: 151px;
+    position: relative;
+}
+
+.main_courses-blue-circle {
+    position: absolute;
+    width: 1040px;
+    height: 1040px;
+    background: #DFE2F7;
+    opacity: 0.6;
+    filter: blur(500px);
+    border-radius: 50%;
+    bottom: 50px;
+    left: -530px;
+}
+
+.main_courses-dashed {
+    position: absolute;
+    transform: rotate(53deg);
+    bottom: 170px;
+    left: -270px;
+    z-index: -1;
+}
+
+.main_courses .container {
+    max-width: 940px;
+}
+
+.main_courses-description {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-top: 36px;
+}
+
+.main_insta {
+    color: #000;
+    font-weight: 500;
+}
+
+.main_courses-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.main_courses-content-item {
+    padding: 76px 20px 136px 30px;
+    background: radial-gradient(circle at 360px 0px, transparent 50px, white 50px);
+    box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.03), 0 16px 27px rgba(27, 48, 111, 0.03), 0 2px 6px rgba(27, 48, 111, 0.02), 0 0 1px rgba(27, 48, 111, 0.02);
+    border-radius: 30px;
+    position: relative;
+    margin-top: 90px;
+}
+
+
+.main_courses-content-item-image {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 -3px 27px rgba(73, 165, 171, 0.06), 0 16px 30px rgba(27, 48, 111, 0.04), 0 2px 6px rgba(27, 48, 111, 0.04), 0 0 1px rgba(27, 48, 111, 0.04);
+    border-radius: 50px;
+    padding: 20px 22px;
+    top: -45px;
+    right: 50px;
+    z-index: 1;
+}
+
+.main_courses-content-item-image img {
+    width: 36px;
+    height: 36px;
+}
+
+.main_courses-content-item-title {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #2016A1;
+}
+
+.main_courses-content-item-for {
+    position: absolute;
+    padding: 27px 33px 14px 48px;
+    background: url("../images/main_courses-flag.png") no-repeat;
+    background-size: 100% 100%;
+    top: 60px;
+    right: -9px;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main_courses-content-item-features {
+    margin-top: 35px;
+    max-width: 400px;
+}
+
+.main_courses-content-item-feature {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px 0;
+}
+
+.main_courses-content-item-feature-text {
+    margin-left: 13px;
+}
+
+.main_courses-content-item-action-btn {
+    position: absolute;
+    bottom: 55px;
+    padding: 21px 67px 20px;
+    border: 2px solid #2016A1;
+    box-sizing: border-box;
+    border-radius: 17px;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #2016A1;
+}
+
+.main_attention {
+    padding-top: 150px;
+    position: relative;
+}
+
+.main_attention-pink-circle {
+    position: absolute;
+    width: 394px;
+    height: 394px;
+    background: #FB8FA3;
+    opacity: 0.5;
+    filter: blur(200px);
+    border-radius: 50%;
+    right: 99px;
+    top: -55px;
+    z-index: -1;
+}
+
+.main_attention-dashed {
+    position: absolute;
+    bottom: 48px;
+    z-index: -1;
+    right: 0;
+}
+
+.main_attention .container {
+    max-width: 940px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.main_attention-content {
+    background: #FFFFFF;
+    box-shadow: 0 -3px 27px rgba(27, 48, 111, 0.03), 0 16px 27px rgba(27, 48, 111, 0.03), 0 2px 6px rgba(27, 48, 111, 0.02), 0 0 1px rgba(27, 48, 111, 0.02);
+    border-radius: 30px;
+    padding: 104px 40px 78px;
+    position: relative;
+}
+
+.main_attention-content-mark {
+    position: absolute;
+    top: -65px;
+    left: 10px;
+}
+
+.main_attention-content-iphone {
+    position: absolute;
+    right: 46px;
+    top: -61px;
+}
+
+.main_attention-content-title {
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 58px;
+    letter-spacing: 0.01em;
+    color: #FF1E6F;
+}
+
+.main_attention-content-title br {
+    display: none;
+}
+
+.main_attention-content-description {
+    max-width: 445px;
+    margin-top: 30px;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.main_attention-content-action {
+    margin-top: 50px;
+}
+
+.main_attention-content-action-btn {
+    display: inline-block;
+    background: #2016A1;
+    box-shadow: 0 16px 24px rgba(32, 22, 161, 0.06), 0 2px 6px rgba(32, 22, 161, 0.04), 0 0 1px #2016A1;
+    border-radius: 17px;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFDFD;
+    padding: 24px 42px;
+    box-sizing: border-box;
+}
+
+.reviews.main_block {
+    margin-top: 217px;
+    position: relative;
+}
+
+.main_reviews-blue-circle {
+    position: absolute;
+    width: 803px;
+    height: 733px;
+    background: #A58FFB;
+    opacity: 0.3;
+    filter: blur(160px);
+    border-radius: 50%;
+    bottom: -460px;
+    left: -410px
+}
+
+.faq.main_block {
+    position: relative;
+}
+
+.main_faq-blue-circle {
+    position: absolute;
+    bottom: -585px;
+    right: -535px;
+    width: 1040px;
+    height: 1040px;
+    background: #C3DEFB;
+    opacity: 0.6;
+    filter: blur(250px);
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.main_faq-dashed {
+    position: absolute;
+    z-index: -1;
+    left: -260px;
+    bottom: -40px;
+}
+
+footer {
+    margin-top: 150px;
+    background: #0B142F;
+}
+
+.main_footer-content {
+    display: flex;
+    padding: 66px 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.main_footer-content-links {
+    display: flex;
+    width: 924px;
+    justify-content: space-between;
+}
+
+.main_footer-content-col {
+    display: flex;
+    flex-direction: column;
+    max-width: 235px;
+}
+
+.main_footer-content-col-logo {
+    margin-bottom: 20px;
+}
+
+.main_footer-content-col-item {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Muller', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 10px 0;
+}
+
+.main_footer-content-col .menu-item {
+    color: #fff;
+    margin: 15px 0;
+}
+
+.main_footer-content-col-courses {
+    display: flex;
+    flex-direction: column;
+}

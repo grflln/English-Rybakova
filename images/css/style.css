@@ -6,7 +6,19 @@
     url("../fonts/MullerRegular.woff2") format("woff2"),
     url("../fonts/MullerRegular.eot") format("truetype");
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/MullerMedium.eot");
+  src: url("../fonts/MullerMedium.eot") format("embedded-opentype"),
+    url("../fonts/MullerMedium.woff") format("woff"),
+    url("../fonts/MullerMedium.woff2") format("woff2"),
+    url("../fonts/MullerMedium.eot") format("truetype");
+  font-style: normal;
+  font-weight: 500;
   font-display: swap;
 }
 
@@ -18,7 +30,7 @@
     url("../fonts/MullerBold.woff2") format("woff2"),
     url("../fonts/MullerBold.ttf") format("truetype");
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-display: swap;
 }
 
@@ -34,6 +46,7 @@ a {
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
   outline: none;
+  color: unset;
 }
 
 .main {
@@ -210,7 +223,7 @@ header {
 
 .useful-title {
   max-width: 690px;
-  font-family: Muller;
+  font-family: 'Muller', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 55px;
