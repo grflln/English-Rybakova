@@ -1,0 +1,240 @@
+@media screen and (max-width: 1400px) {
+    .useful_materials-content {
+        justify-content: space-between;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .useful_materials-content-item {
+        margin: 130px 15px 0;
+    }
+
+    .useful_materials-content-item.item-standard {
+        order: 1;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        width: 100%;
+    }
+
+    .item-standard .useful_materials-content-item-info {
+        max-width: 697px;
+        margin-left: 35px;
+    }
+
+    .item-standard .useful_materials-content-item-image {
+        position: static;
+        width: 169.57px;
+        height: 247.03px;
+    }
+
+    .item-standard .useful_materials-content-item-title {
+        max-width: unset;
+        margin: 0;
+    }
+
+    .item-standard .useful_materials-content-item-description {
+        margin-top: 24px;
+    }
+
+    .useful_materials-content-item.mini-item {
+        order: 2;
+    }
+
+    .useful_materials-content-item.item-big {
+        order: 4;
+        max-width: 100%;
+    }
+
+    .useful_interviews-content {
+        flex-wrap: wrap;
+        margin: 40px auto 0;
+        max-width: 1000px;
+    }
+
+    .useful_interviews-content-item {
+        margin: 40px 15px;
+    }
+
+    .useful_interviews-content-item.item-standard {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 889px) {
+    .useful_materials-content-item {
+        margin: 130px 0 0;
+    }
+
+    .useful_interviews-content-item {
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width: 849px) {
+    .useful_materials-content-item {
+        margin: 130px 0 0;
+    }
+
+
+    .useful_materials-content-item.mini-item {
+        max-width: 100%;
+    }
+
+
+    .useful_materials-content-item-title br{
+        display: none;
+    }
+
+    .useful_materials-content-item.item-big {
+        padding: 73px 30px 30px;
+    }
+
+    .item-big .useful_materials-content-item-action {
+        flex-wrap: wrap;
+        /*flex-direction: column;*/
+        align-items: flex-start;
+        margin-top: 10px;
+        /*padding-right: 100px;*/
+    }
+
+    .item-big .useful_materials-content-item-action-item {
+        /*width: 100%;*/
+        margin-top: 30px;
+    }
+
+
+    .item-big .useful_materials-content-item-title {
+        margin-top: 0;
+        /*padding-right: 170px;*/
+    }
+
+
+    .item-big .useful_materials-content-item-image {
+        width: 217px;
+        height: 196px;
+        right: 36px;
+    }
+
+    .item-big .useful_materials-content-item-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .useful_interviews {
+        padding-top: 100px;
+    }
+
+    .useful_interviews-content {
+        margin-top: 30px;
+    }
+
+    .useful_interviews-content-item {
+        margin: 22px 0;
+        max-width: 100%;
+    }
+
+    .useful_materials-content {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .useful_materials {
+        padding-top: 100px;
+    }
+
+    .useful_materials-content-item.item-standard {
+        padding-top: 72px;
+    }
+
+    .useful_materials-content {
+        margin-top: 86px;
+    }
+
+    .useful_materials-content-item {
+        margin-top: 108px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .item-standard .useful_materials-content-item-image {
+        position: absolute;
+        top: -133px;
+        width: 128px;
+        height: 186px;
+    }
+
+    .item-standard .useful_materials-content-item-image img {
+        width: 100%;
+    }
+
+    .item-standard .useful_materials-content-item-info {
+        margin-left: 0;
+    }
+
+    .item-big .useful_materials-content-item-title br{
+        display: block;
+    }
+
+    .useful_materials-content-item.item-big {
+        padding-top: 83px;
+    }
+
+    .item-big .useful_materials-content-item-image {
+        right: 15px;
+    }
+
+    .useful_interviews-content-item-title br {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .useful_materials {
+        padding-top: 60px;
+    }
+
+    .useful_materials-content-item, .useful_materials-content-item.item-standard, .useful_materials-content-item.item-big {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .useful_materials-content-item-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .useful_interviews-content-item {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .useful_interviews-content-item-title {
+        font-size: 22px;
+    }
+
+    .useful_interviews-content-item:first-child .useful_interviews-content-item-title::before {
+        left: 0;
+    }
+
+    .useful_interviews-content-item-action-btn {
+        width: calc(100% - 30px);
+        left: 15px;
+    }
+}
+
+@media screen and (max-width: 359px){
+    .useful_materials-content-item-action-btn {
+        font-size: 15px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .item-big .useful_materials-content-item-image {
+        right: 0;
+    }
+}

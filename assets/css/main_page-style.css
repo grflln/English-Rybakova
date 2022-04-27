@@ -19,15 +19,6 @@ header {
     z-index: -2;
 }
 
-.block-title {
-    font-family: 'Muller', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    text-align: center;
-    color: #2016a1;
-    margin: 0 auto;
-}
 
 .menu-item {
     margin-left: 95px;
@@ -666,51 +657,4 @@ header {
 footer {
     margin-top: 150px;
     background: #0B142F;
-}
-
-.main_footer-content {
-    display: flex;
-    padding: 66px 0;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.main_footer-content-links {
-    display: flex;
-    width: 924px;
-    justify-content: space-between;
-}
-
-.main_footer-content-col {
-    display: flex;
-    flex-direction: column;
-    max-width: 235px;
-}
-
-.main_footer-content-col-logo {
-    margin-bottom: 20px;
-}
-
-.main_footer-content-col-item {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Muller', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 16px;
-    color: #FFFFFF;
-    opacity: 0.7;
-    margin: 10px 0;
-}
-
-.main_footer-content-col .menu-item {
-    color: #fff;
-    margin: 15px 0;
-}
-
-.main_footer-content-col-courses {
-    display: flex;
-    flex-direction: column;
 }
